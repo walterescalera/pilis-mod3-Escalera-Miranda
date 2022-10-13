@@ -1,0 +1,67 @@
+.contenedor {
+    max-width: 400px;
+    margin: 0 auto  ;
+    padding: 2rem 2rem;
+    /* background-color: #9fa1a295; */
+    border-radius: 5%;
+    margin-top: 5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+  }
+  .formato input{
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 0.7em 0;
+    margin: 0.5em 0;
+    border-radius: 0;
+    /* margin-bottom: 15px; */
+    text-align: center;
+  }
+  .formato{
+    margin-bottom: 30px;
+  } 
+
+  .subbt {
+ 
+    text-shadow: 0 1px 0 rgba(122, 122, 122, 0.85);
+    transition: background 500ms ease-in-out 0s;
+    -webkit-transition: background 500ms ease-in-out 0s;
+    -moz-transition: background 500ms ease-in-out 0s;
+    -o-transition: background 500ms ease-in-out 0s;
+    -ms-transition: background 500ms ease-in-out 0s;
+    background-color: #04AA6D;
+    border: none;
+    color: #FFF;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: .9em;
+    border-radius: 3px;
+    width: 218px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  
+  }
+  .button{
+    text-align: center;
+  }
+  
+
+
+  
+
+  button,
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid lighten(#455a64, 50%);
+    
+  }
+ span{
+    
+    color: red;
+ }
+  
