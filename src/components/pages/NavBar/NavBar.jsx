@@ -25,7 +25,7 @@ function NavBar() {
 			<li><Link  to = {'/listado'}> Listado de Ubicaciones</Link></li>
 			{/* <li className='right'><a className="active" href="#about">Login</a></li> */}
 			{/* <li className='right'><Link  to = {'/'}> Salir</Link></li> */}
-			<li className='right'><button  onClick={()=>logOut()}  >Salir</button></li>
+			<li className='right'><button onClick={()=>logOut()}  >Salir</button></li>
 		</ul>:<div>
 
 		      </div>
