@@ -47,7 +47,7 @@ const Login = () => {
 					</div>
 					<div>
 					  <label>Password:</label>
-					  <input type="text" {...register('password',{
+					  <input type="password" {...register('password',{
 						required:true,                         
 					  })} />
 					  {errors.latitud?.type === 'required' && <span >Debe ingresar Latitud</span>}
